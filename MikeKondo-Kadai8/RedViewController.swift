@@ -23,7 +23,7 @@ final class RedViewController: UIViewController {
     }
 
     private func setupSlider() {
-        guard let sliderValue = UserDefaults.standard.object(forKey: "sliderValueKey") as? Float else { return }
+        let sliderValue = ModelLocator.valueRepository.load()
         slider.value = sliderValue
         sliderLabel.text = String(sliderValue)
     }
@@ -31,6 +31,6 @@ final class RedViewController: UIViewController {
     private func updateSliderValue() {
         sliderValue = slider.value
         sliderLabel.text = String(sliderValue)
-        UserDefaults.standard.setValue(sliderValue, forKey: "sliderValueKey")
+        ModelLocator.valueRepository.save(value: sliderValue)
     }
 }
