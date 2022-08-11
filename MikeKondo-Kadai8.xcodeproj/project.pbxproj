@@ -14,6 +14,7 @@
 		950EEAE028A06EC30023D50C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 950EEADF28A06EC30023D50C /* Assets.xcassets */; };
 		950EEAE328A06EC30023D50C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950EEAE128A06EC30023D50C /* LaunchScreen.storyboard */; };
 		950EEAEB28A070590023D50C /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950EEAEA28A070590023D50C /* GreenViewController.swift */; };
+		956C05C828A5B48F005D5F72 /* ValueRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C05C728A5B48F005D5F72 /* ValueRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		950EEAE228A06EC30023D50C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		950EEAE428A06EC30023D50C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		950EEAEA28A070590023D50C /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		956C05C728A5B48F005D5F72 /* ValueRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				950EEADF28A06EC30023D50C /* Assets.xcassets */,
 				950EEAE128A06EC30023D50C /* LaunchScreen.storyboard */,
 				950EEAE428A06EC30023D50C /* Info.plist */,
+				956C05C728A5B48F005D5F72 /* ValueRepository.swift */,
 			);
 			path = "MikeKondo-Kadai8";
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				950EEADB28A06EC20023D50C /* RedViewController.swift in Sources */,
 				950EEAD728A06EC20023D50C /* AppDelegate.swift in Sources */,
 				950EEAD928A06EC20023D50C /* SceneDelegate.swift in Sources */,
+				956C05C828A5B48F005D5F72 /* ValueRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
